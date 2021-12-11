@@ -2,8 +2,8 @@
 Documenta testes para a matéria PDS no semestre 2021/2
 
 1 - **Sistema**: microsoft/PowerToys<br>
-   **Teste**: SaveChanges()<\br>
-   **Classe**: FancyZonesSettingsTests.cs<\br>
+   **Teste**: SaveChanges()<br>
+   **Classe**: FancyZonesSettingsTests.cs<br>
    **Código do teste**:
         
     private void SaveChanges()
@@ -18,11 +18,11 @@ Documenta testes para a matéria PDS no semestre 2021/2
     }   
     
 
-   O que é testado: Valida se o botão está disponível inicialmente, e se ele se torna indisponível a partir do momento que ele é clicado<\br>
+   O que é testado: Valida se o botão está disponível inicialmente, e se ele se torna indisponível a partir do momento que ele é clicado<br>
 
-2 - **Sistema**: microsoft/PowerToys<\br>
-   **Teste**: SettingsOpenWithContextMenu ()<\br>
-   **Classe**: PowerToysTrayTests<\br>
+2 - **Sistema**: microsoft/PowerToys<br>
+   **Teste**: SettingsOpenWithContextMenu ()<br>
+   **Classe**: PowerToysTrayTests<br>
    **Código do teste**:
 
     public void SettingsOpenWithContextMenu()
@@ -60,11 +60,11 @@ Documenta testes para a matéria PDS no semestre 2021/2
         isSettingsOpened = true;
     }
 
-O que é testado: Valida se a classe PowerToysTrayButton está sendo corretamente incializada e se o Windows elemento pode ser inicializa buscando pelo elemento PowerToysSettings<\br>
+O que é testado: Valida se a classe PowerToysTrayButton está sendo corretamente incializada e se o Windows elemento pode ser inicializa buscando pelo elemento PowerToysSettings<br>
 
-3) **Sistema**: microsoft/PowerToys<\br>
-   **Teste**: CreateSplitter()<\br>
-   **Classe**:  FancyZonesEditorGridZoneResizeTests.cs<\br>
+3) **Sistema**: microsoft/PowerToys<br>
+   **Teste**: CreateSplitter()<br>
+   **Classe**:  FancyZonesEditorGridZoneResizeTests.cs<br>
    **Código do teste**: 
    
         public void CreateSplitter()
